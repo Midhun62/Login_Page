@@ -1,0 +1,73 @@
+<html>
+    <head>
+        <title>
+            Login Page
+        </title>
+        <style>
+            .h{
+                text-align: center;
+                padding: 25px 100px;
+                
+                border-radius: 10px;
+                border-width: 8px;
+                width: 200px;
+                margin: 130px;
+                margin-left: 450px;
+                background-color: darkgrey;
+                height: 340px;
+                opacity: 0.6;
+            }
+            .h1{
+                position :fixed;
+                background: radial-gradient(circle, rgb(204, 112, 152) 0%, rgb(133, 172, 216) 100%);
+                color:rgb(13, 35, 161);
+            }
+            :hover.h4{
+                width: 65px;
+                background-color: rgb(0, 81, 255);
+            }
+            .h2{
+                padding: 5px;
+                border-radius: 15px; 
+                padding-right: 25px; 
+            }
+            .h3{
+                padding: 5px;
+                border-radius: 15px;
+                padding-right: 25px;
+            }
+            .h4{
+                border-radius: 12px;
+                /* position: fixed; */
+                /* right: 680px; */
+                width: 65px;
+            }
+            .h5{
+                position: fixed;
+                left: 600px;
+                bottom: 190px;
+            }
+        </style>
+        <script src="demo.js"></script>
+    </head>
+    <body class="h1">
+        <div class="h">
+        <h1>Login Form </h1>
+        <form name="n2" action="JS.html">
+
+            <label id="a1">
+                Email ID :
+            </label><br><br>
+            <input type="text" placeholder="Enter Email id" name="first" id="h2" class="h2"><br><br>
+
+            <label id="a2">
+                Password :
+            </label><br><br>
+            <input type="password" placeholder="Enter Password" name="second" id="h3" class="h3"><br><br>
+            
+            <input value="submit" type="submit" method="post" onclick="return fun(document.n2.first)" class="h4">
+            <a href="forget.html" class="h5">Forget Password?</a>
+        </form>
+    </div>  
+</body>
+</html>
